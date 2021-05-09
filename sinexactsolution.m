@@ -1,6 +1,6 @@
 function u=sinexactsolution(u, a, dx, dt, xend, tend)
 
-for n=1:tend/dt
+for n=1:tend/dt+1
     for i=1:xend/dx
         x = (i-1)*dx;
     if 0<=x-a*(n-1)*dt && x-a*(n-1)*dt<=1

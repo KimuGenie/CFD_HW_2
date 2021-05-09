@@ -13,6 +13,4 @@ for i=1:xend/dx+1
     end
 end
 
-for n=1:(tend+1)/dt
-    u(1, n) = 10;
-end
+u(1, :) = 10;

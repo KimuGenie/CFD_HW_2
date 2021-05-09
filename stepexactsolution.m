@@ -1,6 +1,6 @@
 function u=stepexactsolution(u, a, dx, dt, xend, tend)
 
-for n=1:tend/dt
+for n=1:tend/dt+1
     for i=1:xend/dx
         x = (i-1)*dx;
     if x-a*(n-1)*dt<= 0
