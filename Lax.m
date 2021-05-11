@@ -5,3 +5,5 @@ for n=1:tend/dt
         u(i, n+1) = (u(i+1, n)+u(i-1, n))/2 - a*dt/(2*dx)*(u(i+1, n)-u(i-1, n));
     end
 end
+
+end

@@ -10,3 +10,5 @@ for i=1:xend/dx+1
         u(i, 1) = 0;
     end
 end
+
+end

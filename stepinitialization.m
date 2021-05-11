@@ -14,3 +14,5 @@ for i=1:xend/dx+1
 end
 
 u(1, :) = 10;
+
+end

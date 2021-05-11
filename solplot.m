@@ -19,3 +19,5 @@ title(strcat(methods(method), '  cfl=', num2str(a*dt/dx)), 'fontsize', 15)
 xlabel('x', 'fontsize', 15)
 ylabel('u', 'fontsize', 15)
 set(gcf, 'position', [100 300 400 300])
+
+end

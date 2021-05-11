@@ -27,3 +27,5 @@ for n=1:tend/dt
         u(i+1, n+1)=U(i);
     end
 end
+
+end

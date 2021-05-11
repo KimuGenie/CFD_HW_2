@@ -4,11 +4,11 @@ close all
 a=1;
 xend=10; %x 끝 값
 tend=6; %t 끝 값
-dx=0.0125;
-dt=0.01;
+dx=0.125;
+dt=0.1;
 timestep=2; %timestep 초마다 plot함.
 
-initialization = 1;
+initialization = 2;
 method = 7;
 exactsolution = 1;
 
